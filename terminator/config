@@ -1,0 +1,200 @@
+[global_config]
+  always_on_top = True
+  enabled_plugins = CustomCommandsMenu, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  hide_from_taskbar = True
+  sticky = True
+  suppress_multiple_term_dialog = True
+  tab_position = bottom
+  window_state = maximise
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+  close_term = <Alt>w
+  close_window = None
+  cycle_prev = None
+  edit_window_title = None
+  full_screen = None
+  go_down = None
+  go_left = None
+  go_next = None
+  go_prev = None
+  go_right = None
+  go_up = None
+  help = None
+  hide_window = F1
+  move_tab_left = <Primary><Shift>Left
+  move_tab_right = <Primary><Shift>Right
+  new_window = None
+  next_tab = <Alt>Right
+  page_down = <Shift>Page_Down
+  page_up = <Shift>Page_Up
+  prev_tab = <Alt>Left
+  reset = None
+  reset_clear = None
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  resize_up = None
+  scaled_zoom = None
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_10 = <Alt>0
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+  toggle_scrollbar = None
+  toggle_zoom = None
+  zoom_in = None
+  zoom_normal = None
+  zoom_out = None
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 9d5a808b-df4f-4b47-8026-b2be0f056de7
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1896, 877
+      title = baoan@ubuntu: ~/dev/datayes/git/mom
+      type = Window
+    [[[terminal1]]]
+      command = ""
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 9d5a808b-df4f-4b47-8026-b2be0f056de7
+  [[my-layout]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 1896, 877
+      title = baoan@ubuntu: ~/dev/datayes/git/mom
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = mom, pms, mysql, mysql2, shell, shell2, web
+      last_active_term = d3a571fa-fb27-4977-b1f6-44333d3d55ba, 9d5a808b-df4f-4b47-8026-b2be0f056de7, 95859abd-0e88-4046-8834-3d7bdfd1edf3, 3dcaf077-acdc-496e-9fa5-ebe4be5c0b07, 826ca82f-92bf-4de0-b63d-b966633d3807, d5962669-c281-472b-8e61-3db09e01897d, db5370d3-751d-4993-92e8-5be81ff5160f
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child12]]]
+      order = 1
+      parent = child8
+      position = 422
+      ratio = 0.5
+      type = VPaned
+    [[[child8]]]
+      order = 6
+      parent = child1
+      position = 945
+      ratio = 0.49973628692
+      type = HPaned
+    [[[child9]]]
+      order = 0
+      parent = child8
+      position = 422
+      ratio = 0.5
+      type = VPaned
+    [[[terminal10]]]
+      command = echo 'node server.js'; zsh
+      directory = /home/baoan/dev/datayes/git/mof-web-fe
+      order = 0
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = db5370d3-751d-4993-92e8-5be81ff5160f
+    [[[terminal11]]]
+      command = echo 'PORT=3001 node server/'; zsh
+      directory = /home/baoan/dev/datayes/git/datayes-cards
+      order = 1
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = f86c771d-07de-43f3-8f23-bbad2b024841
+    [[[terminal13]]]
+      command = echo 'nyx-dev'; zsh
+      directory = /home/baoan/dev/datayes/git/pms/pms-frontend
+      order = 0
+      parent = child12
+      profile = default
+      type = Terminal
+      uuid = d5705acd-a5d4-4ad6-8467-f5f2e4d81172
+    [[[terminal14]]]
+      command = ""
+      directory = /home/baoan/dev/datayes/git
+      order = 1
+      parent = child12
+      profile = default
+      type = Terminal
+      uuid = 7f58ff18-da82-40db-9f1d-a27b993d0f3b
+    [[[terminal2]]]
+      directory = /home/baoan/dev/datayes/git/mom
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = d3a571fa-fb27-4977-b1f6-44333d3d55ba
+    [[[terminal3]]]
+      directory = /home/baoan/dev/datayes/git/pms
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 9d5a808b-df4f-4b47-8026-b2be0f056de7
+    [[[terminal4]]]
+      directory = ""
+      order = 2
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 95859abd-0e88-4046-8834-3d7bdfd1edf3
+    [[[terminal5]]]
+      directory = ""
+      order = 3
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 3dcaf077-acdc-496e-9fa5-ebe4be5c0b07
+    [[[terminal6]]]
+      command = ""
+      directory = ""
+      order = 4
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 826ca82f-92bf-4de0-b63d-b966633d3807
+    [[[terminal7]]]
+      command = htop; zsh
+      directory = ""
+      order = 5
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = d5962669-c281-472b-8e61-3db09e01897d
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2b2b2b"
+    background_image = None
+    cursor_color = "#839496"
+    custom_command = /bin/zsh
+    exit_action = hold
+    font = Ubuntu Mono 11
+    foreground_color = "#d6d6d6"
+    login_shell = True
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False
