@@ -20,8 +20,7 @@ ZSH_THEME="dozaza"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
+# Uncomment the following line to use hyphen-insensitive completion. Case # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
@@ -60,16 +59,21 @@ ZSH_THEME="dozaza"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
   zsh-autosuggestions
   zsh-syntax-highlighting
   zsh-256color
   extract
+  git
+  tig
   mvn
   osx
   autojump
   scala
+  sbt
   python
+  docker
+  docker-compose
+  golang
 )
 
 source $ZSH/oh-my-zsh.sh
