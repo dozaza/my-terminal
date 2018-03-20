@@ -141,8 +141,7 @@
       type = Terminal
       uuid = 7f58ff18-da82-40db-9f1d-a27b993d0f3b
     [[[terminal2]]]
-      command = ""
-      directory = ""
+      directory = /home/baoan/dev/baoan/git
       order = 0
       parent = child1
       profile = default
