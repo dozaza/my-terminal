@@ -1,4 +1,4 @@
-# A backup of my terminal config
+# A backup of my ubuntu improvement.
 1. For **terminator**, put *config* file into *~/.config/terminator/*
 
 2. For **zsh**, put *dozaza.zsh-theme* into *~/.oh-my-zsh/themes*, and change *~/.zshrc*
