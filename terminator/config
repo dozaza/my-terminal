@@ -85,8 +85,8 @@
       type = Window
     [[[child1]]]
       active_page = 0
-      labels = mom, pms, mysql, mysql2, shell, shell2, web
-      last_active_term = d3a571fa-fb27-4977-b1f6-44333d3d55ba, 9d5a808b-df4f-4b47-8026-b2be0f056de7, 95859abd-0e88-4046-8834-3d7bdfd1edf3, 3dcaf077-acdc-496e-9fa5-ebe4be5c0b07, 826ca82f-92bf-4de0-b63d-b966633d3807, d5962669-c281-472b-8e61-3db09e01897d, db5370d3-751d-4993-92e8-5be81ff5160f
+      labels = shell, shell2, mom, pms, mysql, mysql2, htop, web
+      last_active_term = d3a571fa-fb27-4977-b1f6-44333d3d55ba, 9d5a808b-df4f-4b47-8026-b2be0f056de7, 95859abd-0e88-4046-8834-3d7bdfd1edf3, 3dcaf077-acdc-496e-9fa5-ebe4be5c0b07, 826ca82f-92bf-4de0-b63d-b966633d3807, d5962669-c281-472b-8e61-3db09e01897d, 350106f3-ab2c-4b3b-a970-f22bf43478f1, db5370d3-751d-4993-92e8-5be81ff5160f
       order = 0
       parent = child0
       type = Notebook
@@ -141,28 +141,30 @@
       type = Terminal
       uuid = 7f58ff18-da82-40db-9f1d-a27b993d0f3b
     [[[terminal2]]]
-      directory = /home/baoan/dev/datayes/git/mom
+      command = ""
+      directory = ""
       order = 0
       parent = child1
       profile = default
       type = Terminal
       uuid = d3a571fa-fb27-4977-b1f6-44333d3d55ba
     [[[terminal3]]]
-      directory = /home/baoan/dev/datayes/git/pms
+      command = ""
+      directory = ""
       order = 1
       parent = child1
       profile = default
       type = Terminal
       uuid = 9d5a808b-df4f-4b47-8026-b2be0f056de7
     [[[terminal4]]]
-      directory = ""
+      directory = /home/baoan/dev/datayes/git/mom
       order = 2
       parent = child1
       profile = default
       type = Terminal
       uuid = 95859abd-0e88-4046-8834-3d7bdfd1edf3
     [[[terminal5]]]
-      directory = ""
+      directory = /home/baoan/dev/datayes/git/pms
       order = 3
       parent = child1
       profile = default
@@ -177,13 +179,21 @@
       type = Terminal
       uuid = 826ca82f-92bf-4de0-b63d-b966633d3807
     [[[terminal7]]]
-      command = htop; zsh
+      command = ""
       directory = ""
       order = 5
       parent = child1
       profile = default
       type = Terminal
       uuid = d5962669-c281-472b-8e61-3db09e01897d
+    [[[terminal8]]]
+      command = htop; zsh
+      directory = ""
+      order = 5
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 350106f3-ab2c-4b3b-a970-f22bf43478f1
 [plugins]
 [profiles]
   [[default]]
