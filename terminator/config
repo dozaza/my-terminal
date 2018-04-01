@@ -63,7 +63,7 @@
       parent = ""
       position = 0:0
       size = 1896, 877
-      title = baoan@ubuntu: ~/dev/datayes/git/mom
+      title = "zsh"
       type = Window
     [[[terminal1]]]
       command = ""
@@ -81,7 +81,6 @@
       parent = ""
       position = 0:24
       size = 1896, 877
-      title = baoan@ubuntu: ~/dev/datayes/git/mom
       type = Window
     [[[child1]]]
       active_page = 0
