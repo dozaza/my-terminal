@@ -109,7 +109,7 @@
       type = VPaned
     [[[terminal10]]]
       command = echo 'node server.js'; zsh
-      directory = /home/baoan/dev/datayes/git/mof-web-fe
+      directory = /home/baoan/Workspace/datayes/git/mof-web-fe
       order = 0
       parent = child9
       profile = default
@@ -117,7 +117,7 @@
       uuid = db5370d3-751d-4993-92e8-5be81ff5160f
     [[[terminal11]]]
       command = echo 'PORT=3001 node server/'; zsh
-      directory = /home/baoan/dev/datayes/git/datayes-cards
+      directory = /home/baoan/Workspace/datayes/git/datayes-cards
       order = 1
       parent = child9
       profile = default
@@ -125,7 +125,7 @@
       uuid = f86c771d-07de-43f3-8f23-bbad2b024841
     [[[terminal13]]]
       command = echo 'nyx-dev'; zsh
-      directory = /home/baoan/dev/datayes/git/pms/pms-frontend
+      directory = /home/baoan/Workspace/datayes/git/pms/pms-frontend
       order = 0
       parent = child12
       profile = default
@@ -133,14 +133,14 @@
       uuid = d5705acd-a5d4-4ad6-8467-f5f2e4d81172
     [[[terminal14]]]
       command = ""
-      directory = /home/baoan/dev/datayes/git
+      directory = /home/baoan/Workspace/datayes/git
       order = 1
       parent = child12
       profile = default
       type = Terminal
       uuid = 7f58ff18-da82-40db-9f1d-a27b993d0f3b
     [[[terminal2]]]
-      directory = /home/baoan/dev/baoan/git
+      directory = /home/baoan/Workspace/baoan/git
       order = 0
       parent = child1
       profile = default
@@ -155,14 +155,14 @@
       type = Terminal
       uuid = 9d5a808b-df4f-4b47-8026-b2be0f056de7
     [[[terminal4]]]
-      directory = /home/baoan/dev/datayes/git/mom
+      directory = /home/baoan/Workspace/datayes/git/mom
       order = 2
       parent = child1
       profile = default
       type = Terminal
       uuid = 95859abd-0e88-4046-8834-3d7bdfd1edf3
     [[[terminal5]]]
-      directory = /home/baoan/dev/datayes/git/pms
+      directory = /home/baoan/Workspace/datayes/git/pms
       order = 3
       parent = child1
       profile = default
