@@ -127,7 +127,7 @@ alias mom-rpt-db="mycli -uroot -p123 momrpt"
 alias mom-rpt-ci-db="mycli -uapp_momrptci_owr -p4z+YDEnLPoxvbxW7 -hsecurity03-dev.datayes.com momrptci"
 alias mom-rpt-qa-db="mycli -uapp_momrptqa_owr -p5T6sPBA77G9oBVN0n -hsecurity03-dev.datayes.com momrptqa"
 alias heye-dev-db="mycli -uapp_intel2_rw -pjW75PVGahZ2lLgF3 -h10.21.232.162"
-alias sbt="/home/baoan/bin/sbt/sbt"
+alias sbt="/home/baoan/Application/sbt/sbt"
 
 export pms_dir="/home/baoan/Workspace/datayes/git/pms"
 export pms_web_dir="/home/baoan/Workspace/datayes/git/pms/pms-frontend"
