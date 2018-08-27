@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/baoan/.oh-my-zsh
+  export ZSH=/Users/baoan/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -127,38 +127,39 @@ alias mom-rpt-db="mycli -uroot -p123 momrpt"
 alias mom-rpt-ci-db="mycli -uapp_momrptci_owr -p4z+YDEnLPoxvbxW7 -hsecurity03-dev.datayes.com momrptci"
 alias mom-rpt-qa-db="mycli -uapp_momrptqa_owr -p5T6sPBA77G9oBVN0n -hsecurity03-dev.datayes.com momrptqa"
 alias heye-dev-db="mycli -uapp_intel2_rw -pjW75PVGahZ2lLgF3 -h10.21.232.162"
-alias sbt="/home/baoan/Applications/sbt/sbt"
+alias sbt="/Users/baoan/Applications/sbt/sbt"
 
-export pms_dir="/home/baoan/Workspace/datayes/git/pms"
-export pms_web_dir="/home/baoan/Workspace/datayes/git/pms/pms-frontend"
-export sailfish_dir="/home/baoan/Workspace/datayes/git/sailfish"
-export attribution_dir="/home/baoan/Workspace/datayes/git/attribution"
-export git_dir="/home/baoan/Workspace/datayes/git"
-export mom_dir="/home/baoan/Workspace/datayes/git/mom"
-export mom_rpt_dir="/home/baoan/Workspace/datayes/git/mom-report"
-export uranus_dir="/home/baoan/Workspace/datayes/git/Uranus-demo"
-export baoan_git_dir="/home/baoan/Workspace/baoan/git"
+export pms_dir="/Users/baoan/Workspace/datayes/git/pms"
+export pms_web_dir="/Users/baoan/Workspace/datayes/git/pms/pms-frontend"
+export sailfish_dir="/Users/baoan/Workspace/datayes/git/sailfish"
+export attribution_dir="/Users/baoan/Workspace/datayes/git/attribution"
+export git_dir="/Users/baoan/Workspace/datayes/git"
+export mom_dir="/Users/baoan/Workspace/datayes/git/mom"
+export mom_rpt_dir="/Users/baoan/Workspace/datayes/git/mom-report"
+export uranus_dir="/Users/baoan/Workspace/datayes/git/Uranus-demo"
+export baoan_git_dir="/Users/baoan/Workspace/baoan/git"
 
 export DATAYES_MIGRATION_ENV=dev
 
-export JAVA_HOME=/home/baoan/Applications/jdk
-export SCALA_HOME=/home/baoan/Applications/scala
-export MVN_HOME=/home/baoan/Applications/apache-maven
-export MIGRATE_HOME=/home/baoan/Workspace/datayes/git/dy-migration
-export JMETER_HOME=/home/baoan/Applications/apache-jmeter
-export GO_HOME=/home/baoan/Applications/go
-export HYPERLEDGER_FABRIC_HOME=/home/baoan/Applications/hyperledger/fabric
-export HADOOP_HOME=/home/baoan/Applications/hadoop
-export HIVE_HOME=/home/baoan/Applications/apache-hive
+export JAVA_HOME=/Users/baoan/Applications/jdk
+export SCALA_HOME=/Users/baoan/Applications/scala
+export MVN_HOME=/Users/baoan/Applications/apache-maven
+export MIGRATE_HOME=/Users/baoan/Workspace/datayes/git/dy-migration
+export JMETER_HOME=/Users/baoan/Applications/apache-jmeter
+export GO_HOME=/Users/baoan/Applications/go
+export HYPERLEDGER_FABRIC_HOME=/Users/baoan/Applications/hyperledger/fabric
+export HADOOP_HOME=/Users/baoan/Applications/hadoop
+export HIVE_HOME=/Users/baoan/Applications/apache-hive
 export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:$SCALA_HOME/lib:$CLASSPATH
 export PATH=$PATH:$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$SCALA_HOME/bin:$MVN_HOME/bin:$MIGRATE_HOME/bin:$JMETER_HOME/bin:$GO_HOME/bin:$HYPERLEDGER_FABRIC_HOME/bin:$HADOOP_HOME/bin:$HIVE_HOME/bin
 #:$ANACONDA_HOME/bin
 
 #:$ANACONDA_HOME/bin
 
-[[ -s /home/baoan/.autojump/etc/profile.d/autojump.sh ]] && source /home/baoan/.autojump/etc/profile.d/autojump.sh
+[[ -s /Users/baoan/.autojump/etc/profile.d/autojump.sh ]] && source /Users/baoan/.autojump/etc/profile.d/autojump.sh
 
 autoload -U compinit && compinit -u
 
 # bind ctrl+space to accept auto complete
-bindkey '^ ' autosuggest-accept
+bindkey '^b' autosuggest-accept
+source /Users/baoan/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
