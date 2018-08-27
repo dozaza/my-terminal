@@ -141,16 +141,15 @@ export baoan_git_dir="/home/baoan/Workspace/baoan/git"
 
 export DATAYES_MIGRATION_ENV=dev
 
-export JAVA_HOME=/home/baoan/Application/jdk
-export SCALA_HOME=/home/baoan/Application/scala
-export MVN_HOME=/home/baoan/Application/apache-maven
-#export ANACONDA_HOME=/home/baoan/Application/anaconda
+export JAVA_HOME=/home/baoan/Applications/jdk
+export SCALA_HOME=/home/baoan/Applications/scala
+export MVN_HOME=/home/baoan/Applications/apache-maven
 export MIGRATE_HOME=/home/baoan/Workspace/datayes/git/dy-migration
-export JMETER_HOME=/home/baoan/Application/apache-jmeter
-export GO_HOME=/home/baoan/Application/go
-export HYPERLEDGER_FABRIC_HOME=/home/baoan/Application/hyperledger/fabric
-export HADOOP_HOME=/home/baoan/Application/hadoop
-export HIVE_HOME=/home/baoan/Application/apache-hive
+export JMETER_HOME=/home/baoan/Applications/apache-jmeter
+export GO_HOME=/home/baoan/Applications/go
+export HYPERLEDGER_FABRIC_HOME=/home/baoan/Applications/hyperledger/fabric
+export HADOOP_HOME=/home/baoan/Applications/hadoop
+export HIVE_HOME=/home/baoan/Applications/apache-hive
 export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:$SCALA_HOME/lib:$CLASSPATH
 export PATH=$PATH:$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$SCALA_HOME/bin:$MVN_HOME/bin:$MIGRATE_HOME/bin:$JMETER_HOME/bin:$GO_HOME/bin:$HYPERLEDGER_FABRIC_HOME/bin:$HADOOP_HOME/bin:$HIVE_HOME/bin
 #:$ANACONDA_HOME/bin
